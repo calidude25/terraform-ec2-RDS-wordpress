@@ -1,13 +1,14 @@
 database_name           = "wordpress_db"   // database name
 database_user           = "wordpress_user" //database username
+database_password       = "rabbit1969" //database password
 shared_credentials_file = "~/.aws"         //Access key and Secret key file location
-region                  = "ap-southeast-2" //sydney region
+region                  = "us-west-2" //us-west-2 region
 IsUbuntu                = false            // true for ubuntu,false for linux 2  //boolean type
 
 // avaibility zone and their CIDR
-AZ1          = "ap-southeast-2a" // for EC2
-AZ2          = "ap-southeast-2b" //for RDS 
-AZ3          = "ap-southeast-2c" //for RDS
+AZ1          = "us-west-2a" // for EC2
+AZ2          = "us-west-2b" //for RDS 
+AZ3          = "us-west-2c" //for RDS
 VPC_cidr     = "10.0.0.0/16"     // VPC CIDR
 subnet1_cidr = "10.0.1.0/24"     // Public Subnet for EC2
 subnet2_cidr = "10.0.2.0/24"     //Private Subnet for RDS
